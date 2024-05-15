@@ -1,0 +1,97 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: wheat;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.2em;
+  }
+  
+  #intro {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  img:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+  }
+  
+  .bio {
+    margin-top: 20px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    border: 3px solid black;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  #qualities,
+  #achievements {
+    background-color: lightcoral;
+    margin-top: 50px;
+    padding: 40px 0;
+    text-align: center;
+    border: 3px solid black;
+  }
+  
+  #qualities h2,
+  #achievements h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #007bff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
